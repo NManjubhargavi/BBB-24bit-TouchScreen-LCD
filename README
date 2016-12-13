@@ -1,0 +1,8 @@
+Interface "KD043C-1" Touch screen 24-bit LCD to BBB
+BBB - u-boot, dtbs and rootfs need to update
+u-boot:
+    1) Download latest error free compiled u-boot code.
+    2) Check "configs/am335x-boneblack-defconfig" for dfault configuration
+    3) Check "board/ti/am335x/" for target specific source code.
+    4) Definition and board specific options can be found in "include/configs/am335x-evm.h"
+    5)
